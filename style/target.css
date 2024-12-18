@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "UVNGiongSong";
+    src: url(../fonts/UVN-Giong-Song/UVNGiongSong_B.TTF) format("truetype"),
+         url(../fonts/UVN-Giong-Song/UVNGiongSong_BI.TTF) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: #f8f9fa;
+    padding: 30px;
+    font-family: 'UVNGiongSong';
+}
+p {
+    font-family: 'UVNGiongSong';
+}
+text{
+    font-family: 'UVNGiongSong';
+}
+h2{
+    font-family: 'UVNGiongSong';
+    color: rgb(20, 136, 182);
+}
+h3{
+    font-family: 'UVNGiongSong';
+}
+th{
+    font-family: 'UVNGiongSong';
+}
+td{
+    font-family: 'UVNGiongSong';
+}
+#main-panel{
+    background-color: rgb(224, 255, 255);
+}
+#title-container{
+    background-color: #ffffff;
+    height: 100px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    display: flex;           
+    justify-content: center;   
+    align-items: center;        
+    text-align: center; 
+}
+#btn-exit{
+    width: 100px;
+    font-size: 18px;
+    color: rgb(14, 14, 96);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(30, 10, 91);
+}
+h4{
+    font-family: "UVNGiongSong";
+}
+label{
+    font-family: "UVNGiongSong";
+}
+#btn-save-target{
+    margin-bottom: 15px;
+    background-color: azure;
+    color: blue;
+    font-size: 16px;
+}

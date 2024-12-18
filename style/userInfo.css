@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "UVNGiongSong";
+    src: url(../fonts/UVN-Giong-Song/UVNGiongSong_B.TTF) format("truetype"),
+         url(../fonts/UVN-Giong-Song/UVNGiongSong_BI.TTF) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: #f8f9fa;
+    padding: 30px;
+    font-family: 'UVNGiongSong';
+}
+
+.user-info {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-info img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.combo-box-container {
+    margin-bottom: 20px;
+}
+
+.table-container {
+    display: none;
+}
+
+.btn-avatar {
+    margin-top: 10px;
+}
+#income-expense{
+    border: 2px solid rgb(14, 111, 155);
+    background-color: #ffffff   ;
+}
+body{
+    background-color: #d9fefe;
+  
+}
+
+tr{
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;    
+}
+
+#expense{
+    background-color: #ffffff;
+}
+#income{
+    background-color: #ffffff;
+}
+#table-title{
+    color: rgb(0, 28, 113);
+    text-align: center;
+}
+
+#combobox-container{
+    display: flex;
+    justify-content: end;
+}
+
+text{
+    font-family: "UVNGiongSong",sans-serif;
+}
+h3{
+    font-family: "UVNGiongSong",sans-serif;
+}
+td{
+    font-size: 16px;
+}

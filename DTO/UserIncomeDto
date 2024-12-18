@@ -1,0 +1,52 @@
+<?php
+
+class UserIncomeDto {
+
+    private $date_time;
+    private $description;
+    private $amount_received;
+    private $source;
+    private $note;
+    public function __construct() {
+    }
+
+    public function getDateTime() {
+        return $this->date_time;
+    }
+
+    public function setDateTime($date_time) {
+        $this->date_time = $date_time;
+    }
+
+    public function getDescription() {
+        return $this->description;
+    }
+
+    public function setDescription($description) {
+        $this->description = $description;
+    }
+
+    public function getAmountReceived() {
+        return $this->amount_received;
+    }
+
+    public function setAmountReceived($amount_received) {
+        $this->amount_received = $amount_received;
+    }
+
+    public function getSource() {
+        return $this->source;
+    }
+
+    public function setSource($source) {
+        $this->source = $source;
+    }
+
+    public function getNote() {
+        return $this->note;
+    }
+
+    public function setNote($note) {
+        $this->note = $note;
+    }
+}

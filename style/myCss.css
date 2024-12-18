@@ -1,0 +1,332 @@
+@font-face {
+    font-family: "UVNGiongSong";
+    src: url(../fonts/UVN-Giong-Song/UVNGiongSong_B.TTF) format("truetype"),
+         url(../fonts/UVN-Giong-Song/UVNGiongSong_BI.TTF) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; 
+}
+body {
+    font-family: "UVNGiongSong", sans-serif;
+   
+}
+.registerBody
+{
+    background-color: #f4f4f9;
+    background-color: #CCFFFF;
+}
+.container {
+    max-width: 400px;
+    margin-top: 100px;
+    
+}
+.form-group label {
+    font-weight: 600;
+}
+.form-control {
+    border-radius: 25px;
+    padding: 15px;
+}
+.btn-register {
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+.form-group {
+    margin-bottom: 1.5rem;
+}
+.text-center {
+    font-size: 0.9rem;
+}
+/* Tạo khoảng cách giữa nút và ô nhập liệu */
+.form-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#registerTitle
+{
+    font-weight: bold;
+    font-size: xx-large;
+    
+}
+#registerButton
+{
+    background-color: #008080;
+    color: #FFFFFF;
+}
+
+.loginBody {
+    background-color: #8ee1ff;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
+
+.login-container {
+    background-color: #c6fff7;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-header {
+    font-size: 28px;
+    font-weight: 600;
+    color: #1b005a;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 12px;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #008080;
+}
+
+.btn-login:hover {
+    background-color: #0056b3;
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+}
+
+.footer-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.resetPassBody {
+    background-color: #caecff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resetPassContainer {
+    max-width: 400px;
+}
+.card {
+    padding: 20px;
+    border-radius: 10px;
+}
+.btn-primary {
+    width: 100%;
+    background-color: #008080;
+}
+
+#resetPassTitle
+{
+    font-weight: bold;
+    font-size: xx-large;
+}
+#resetPassContent
+{
+    font-size: larger;
+    color: #0056b3;
+}
+
+.newPasswordbody {
+    background-color: #c7ffff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newPasswordContainer {
+    max-width: 400px;
+}
+.newPasswordCard {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.newPassword-btn-primary {
+    width: 100%;
+}
+
+select.form-control {
+    width: 100%; 
+    padding: 5px; 
+    font-size: 18px; 
+    box-sizing: border-box; 
+}
+
+.form-group.row {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: rgb(0, 43, 113);
+}
+
+.form-group .col-sm-4 {
+    padding-right: 15px; 
+}
+
+.form-group .col-sm-8 {
+    padding-left: 15px; 
+}
+
+.form-control {
+    border-radius: 5px; 
+    font-size: 14px; 
+    padding: 10px;
+}
+
+textarea.form-control {
+    resize: vertical; /* Cho phép người dùng thay đổi kích thước textarea theo chiều dọc */
+}
+
+.form-group .text-right {
+    text-align: right;
+}
+
+input.form-control,
+select.form-control,
+textarea.form-control {
+    width: 100%;
+}
+
+#btn-submit-expense-income{
+    padding: 12px 30px; 
+    font-size: 20px;
+    color: #0a058d; 
+    background-color: #65ffe5;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 60%; 
+}
+button[type="submit"]:hover {
+    background-color: #32d8db;
+    color: #ffffff;
+}
+
+.form-group .text-right {
+    text-align: center; 
+}
+
+#chartPreferences {
+    width: 100%;          /* Đảm bảo chiều rộng là 100% */
+    height: 300px;        /* Đảm bảo chiều cao phù hợp, bạn có thể thay đổi theo nhu cầu */
+    position: relative;   /* Đảm bảo phần tử cha có vị trí để căn chỉnh đúng */
+    margin: 0 auto;       /* Căn giữa biểu đồ */
+}
+
+.ct-chart text {
+    font-size: 20px;
+    fill: #333;
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+#legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.legend-color {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* Căn giữa nội dung trong thẻ <p> */
+.legend-item p {
+    margin: 0;
+    line-height: 20px;
+    display: inline-block;
+}
+#chartContainer {
+    position: relative;
+}
+
+#detailChart{
+    margin-top: 10px;
+    background-color: #eafefb;
+    border: 1px solid black;
+    align-items: center;
+    text-align: center;
+}
+.chart-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.data {
+    display: flex;
+    align-items: center; 
+}
+
+.value {
+    margin-right: 5px;
+    font-size: large;
+
+}
+
+.percent {
+    font-style: italic; 
+    color: red;
+    font-size: large;
+
+
+}
+#chartTitle {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #029297;
+    text-align: center;
+}
+.data-title{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: large;
+}
+
+.card-title{
+    font-size: xx-large;
+}
+option{
+    font-size: 16px;
+}
+select{
+    font-size: 16px;
+}
+:placeholder-shown{
+    font-size: 16px;
+}
+.sidebar{
+    font-size: x-large;
+}

@@ -1,0 +1,51 @@
+<?php
+class UserExpenseDto {
+
+    private $date_time;
+    private $description;
+    private $amount_spent;
+    private $payment_method;
+    private $category;
+
+    public function __construct() {}
+
+    public function getDateTime() {
+        return $this->date_time;
+    }
+
+    public function setDateTime($date_time) {
+        $this->date_time = $date_time;
+    }
+
+    public function getDescription() {
+        return $this->description;
+    }
+
+    public function setDescription($description) {
+        $this->description = $description;
+    }
+
+    public function getAmountSpent() {
+        return $this->amount_spent;
+    }
+
+    public function setAmountSpent($amount_spent) {
+        $this->amount_spent = $amount_spent;
+    }
+
+    public function getPaymentMethod() {
+        return $this->payment_method;
+    }
+
+    public function setPaymentMethod($payment_method) {
+        $this->payment_method = $payment_method;
+    }
+
+    public function getCategory() {
+        return $this->category;
+    }
+
+    public function setCategory($category) {
+        $this->category = $category;
+    }
+}
